@@ -1,4 +1,4 @@
-/* ================= BASE ================= */
+/* BASE */
 * {
     margin: 0;
     padding: 3px;
@@ -34,7 +34,7 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR */
 .header {
     position: fixed;
     width: 100%;
@@ -85,7 +85,7 @@ section {
     cursor: pointer;
 }
 
-/* ================= HERO ================= */
+/* HERO */
 .hero {
     padding-top: 120px;
 }
@@ -144,7 +144,7 @@ section {
     border-radius: 20px;
 }
 
-/* ================= FEATURES ================= */
+/* FEATURES */
 .feature-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -170,7 +170,7 @@ section {
     color: #00f5a0;
 }
 
-/* ================= PRICING ================= */
+/* PRICING */
 .pricing-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -207,7 +207,7 @@ section {
     margin: 10px 0;
 }
 
-/* ================= TESTIMONIALS ================= */
+/* TESTIMONIALS */
 .testimonial-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -221,7 +221,7 @@ section {
     font-style: italic;
 }
 
-/* ================= NEWSLETTER ================= */
+/* NEWSLETTER */
 .newsletter-box {
     text-align: center;
     background: #1a1a1a;
@@ -242,7 +242,7 @@ section {
     cursor: pointer;
 }
 
-/* ================= CONTACT ================= */
+/* CONTACT */
 .contact-form {
     max-width: 600px;
     margin: auto;
@@ -260,7 +260,7 @@ section {
     color: #fff;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER */
 .footer {
     background: #0a0a0a;
     padding: 40px 0;
@@ -283,7 +283,7 @@ section {
     color: #777;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 @media(max-width: 768px) {
 
     .hero-grid {
@@ -308,5 +308,6 @@ section {
     .menu-toggle {
         display: block;
     }
+
 
 }
